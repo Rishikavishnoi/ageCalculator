@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background:#b2b2f5;
+}
+html,body{
+
+  overflow: hidden;
+}
+.container{
+ position:absolute;
+ top:50%;
+ left:50%;
+ width:58vw;
+ height:52vh;
+ background: rgb(252, 244, 220);
+ border:2px blue;
+min-width: 450px;
+transform: translate(-50%, -50%);
+ padding: 25px 41px;
+ border-radius:10px;
+}
+.container * {
+  border: none;
+  outline: none;
+}
+.input{
+  width:50vw;
+  height:17vh;
+  background-color: #30057c;
+  border-radius: 10px;
+  padding:31px 25px;
+  box-shadow: 0 15px 20px rgb(0 0 0 / 30%);
+}
+input,button{
+  height: 60px;
+  background-color: #ffffff;
+  color: #040035;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 5px;
+}
+input {
+  width: 60%;
+  padding: 0 10px;
+  font-size: 20px;
+}
+button {
+  width: 30%;
+  float: right;
+}
+.input button:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+#input-date{
+  cursor:pointer;
+}
+/*.output{
+  height: 60px;
+width: 120px;
+background-color: #070435;
+border-radius: 5px;
+color: #ffffff;
+display: grid;
+place-items: center;
+padding: 20px 0;
+box-shadow: 0 15px 20px rgb(0 0 0 / 30%);
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 40px;
+margin-top: 5px;
+width: 25px;
+    background-color: #132d9f;
+    height: 20px;
+    padding: 10px;
+}
+}*/
+span{
+  width: 25px;
+  background-color: #132d9f;
+  height: 40px;
+  padding: 10px 30px;
+
+  margin-left: 60px;
+  margin-right:30px;
+  border-radius: 10px;
+  font-size: 30px;
+  color:#ffffff
+}
+ /*#year{
+  height: 60px;
+width: 120px;
+ background-color: #070435;
+  font-size: 30px;
+  font-weight: 500;
+}*/
+p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #c5fdfff8;
+  font-weight: 400;
+}
+.age {
+  text-align: center;
+  color: purple;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 19px;
+  margin-top:20px;
+}
